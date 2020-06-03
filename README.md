@@ -1,4 +1,4 @@
-<h1 align="center"><img height="250" src="https://raw.githubusercontent.com/negrel/timer/master/.github/timer.svg"></h1>
+<h1 align="center"><img height="250" src="https://raw.githubusercontent.com/negrel/timer/master/.github/timer.png"></h1>
 
 <p align="center">
 	<a href="https://pkg.go.dev/github.com/negrel/timer">
