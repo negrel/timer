@@ -32,8 +32,8 @@ go get -u github.com/negrel/timer.git
 
 ## Example
 ```
-# Start a 25 seconds timer.
-timer 25s
+# Start a 25 seconds timer as a background process.
+timer 25s &
 
 # Start a 5 minutes and 30 seconds timer.
 timer 1m30s
