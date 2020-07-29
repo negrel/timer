@@ -15,7 +15,7 @@ limitations under the License.
 */
 package main
 
-import "github.com/negrel/gnotify/examples/timer/cmd"
+import "github.com/negrel/timer/cmd"
 
 func main() {
 	cmd.Execute()

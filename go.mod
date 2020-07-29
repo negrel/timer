@@ -1,4 +1,4 @@
-module github.com/negrel/gnotify/examples/timer
+module github.com/negrel/timer
 
 go 1.14
 
