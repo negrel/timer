@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/negrel/gnotify"
+	"github.com/negrel/gnotify/pkg/gnotify"
 	"github.com/spf13/cobra"
 )
 
@@ -77,11 +77,11 @@ when your timer is over.
 	},
 	Run: func(cmd *cobra.Command, args []string) {
 		// Timer start notification.
-		notif := gnotify.NewNotification(gnotify.Option{
+		notif := &gnotify.Notification{
 			Title:         "Starting a timer",
 			Body:          fmt.Sprintf("Starting a timer of %v", args[0]),
 			ExpireTimeout: 3000,
-		})
+		}
 		manager.Push(notif)
 
 		var wg sync.WaitGroup
